@@ -50,9 +50,9 @@ public class controlPersonaje : MonoBehaviour
     {
         // Rota la cámara alrededor del jugador en el eje Y en función del movimiento del mouse
         float rotacionX = Input.GetAxis("Mouse X") * velocidadGiro * Time.deltaTime;
-        float rotacionY = Input.GetAxis("Mouse Y") * 50 * Time.deltaTime;
+        //float rotacionY = Input.GetAxis("Mouse Y") * 50 * Time.deltaTime;
         transform.Rotate(Vector3.up * rotacionX);
-        camaraTransform.Rotate(Vector3.left * rotacionY);
+        //camaraTransform.Rotate(Vector3.left * rotacionY);
     }
 
     private void AplicarGravedad()
