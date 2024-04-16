@@ -27,6 +27,10 @@ public class PlayerInteract : MonoBehaviour
             {
                 interact newInteract = hit.collider.GetComponent<interact>();
 
+                if(currentinteract && newInteract != currentinteract)
+                {
+                    currentinteract.DisableOutline();
+                }
                 if(newInteract.enabled)
                 {
                     SetNewCurrentinteract(newInteract);
