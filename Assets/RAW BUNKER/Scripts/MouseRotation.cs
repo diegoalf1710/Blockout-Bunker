@@ -10,6 +10,6 @@ public class MouseRotation : MonoBehaviour
     {
         float XaxisRotation = Input.GetAxis("Mouse X") * RotationSpeed;
 
-        transform.Rotate(Vector3.down, XaxisRotation);
+        transform.Rotate(Vector3.right, XaxisRotation);
     }
 }
