@@ -34,7 +34,7 @@ public class PickupPieces : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 piecesCollected = piecesCollected + 1;
-                collectText.text = piecesCollected + "/8 pieces";
+                collectText.text = piecesCollected + "/8 shotgun pieces";
                 collectTextObj.SetActive(true);
                 pickupSound.Play();
                 if (piecesCollected == 1)

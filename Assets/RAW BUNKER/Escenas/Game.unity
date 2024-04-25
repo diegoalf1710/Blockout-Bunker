@@ -653,7 +653,7 @@ PrefabInstance:
     - target: {fileID: 1656739385805859387, guid: 69e87e06f121ba744b0dd630d1326859,
         type: 3}
       propertyPath: SprintSpeed
-      value: 2.6
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 8360864145416835243, guid: 69e87e06f121ba744b0dd630d1326859,
         type: 3}
@@ -7137,7 +7137,7 @@ GameObject:
   - component: {fileID: 1438457549}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Pickupable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
