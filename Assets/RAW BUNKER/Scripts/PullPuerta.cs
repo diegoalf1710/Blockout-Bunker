@@ -21,7 +21,7 @@ public class PullPuerta : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             if(Physics.Raycast(playerCam.position, playerCam.forward, out RaycastHit Hit, 1.5f))
             {
