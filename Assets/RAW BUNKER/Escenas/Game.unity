@@ -716,13 +716,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395042257}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22495107, y: 0, z: 0, w: 0.9743701}
-  m_LocalPosition: {x: 0, y: 27.39, z: 19.39}
+  m_LocalRotation: {x: 0.20552097, y: 0, z: 0, w: 0.9786528}
+  m_LocalPosition: {x: 0, y: 27.39, z: 17.58}
   m_LocalScale: {x: 0.63, y: 1, z: 1.77}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097732269}
-  m_LocalEulerAnglesHint: {x: 26, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.72, y: 0, z: 0}
 --- !u!199 &395042259
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -1434,7 +1434,7 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: 0, y: -0.13, z: -0.1}
     m_Rotation: {x: 0, y: 0, z: 0}
     m_Scale: {x: 12, y: 1, z: 7.7}
     placementMode: 0
