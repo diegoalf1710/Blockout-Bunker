@@ -722,6 +722,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395042257}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.14867245, y: 0, z: 0, w: 0.9888865}
   m_LocalPosition: {x: 0, y: 28.3, z: 12.8}
   m_LocalScale: {x: 0.63, y: 1, z: 5}
@@ -729,6 +730,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1097732269}
   m_LocalEulerAnglesHint: {x: 17.1, y: 0, z: 0}
+=======
+  m_LocalRotation: {x: 0.20552097, y: 0, z: 0, w: 0.9786528}
+  m_LocalPosition: {x: 0, y: 27.39, z: 17.58}
+  m_LocalScale: {x: 0.63, y: 1, z: 1.77}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1097732269}
+  m_LocalEulerAnglesHint: {x: 23.72, y: 0, z: 0}
+>>>>>>> 33577f09824e50102dfdb4888fcd5bdb89f534c8
 --- !u!199 &395042259
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -1440,7 +1450,7 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: 0, y: -0.13, z: -0.1}
     m_Rotation: {x: 0, y: 0, z: 0}
     m_Scale: {x: 12, y: 1, z: 7.7}
     placementMode: 0
@@ -7890,6 +7900,59 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1001 &1858482375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 438060, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 438060, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 438060, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 438060, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71149373
+      objectReference: {fileID: 0}
+    - target: {fileID: 438060, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438060, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70269245
+      objectReference: {fileID: 0}
+    - target: {fileID: 438060, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18220932, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_WindMain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 18220932, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_WindTurbulence
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 18220932, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
+      propertyPath: m_WindPulseMagnitude
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec2aa1014a797c54eb478896b8a82d02, type: 3}
 --- !u!1 &1863426495
 GameObject:
   m_ObjectHideFlags: 0
@@ -8405,3 +8468,4 @@ SceneRoots:
   - {fileID: 1480369642}
   - {fileID: 1568923464}
   - {fileID: 1438457552}
+  - {fileID: 1858482375}
