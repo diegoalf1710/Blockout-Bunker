@@ -724,7 +724,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.14867245, y: 0, z: 0, w: 0.9888865}
   m_LocalPosition: {x: 0, y: 28.3, z: 12.8}
-  m_LocalScale: {x: 0.63, y: 1, z: 5}
+  m_LocalScale: {x: 2, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097732269}
@@ -778,7 +778,7 @@ ParticleSystemRenderer:
   m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
-  m_LengthScale: 0.6
+  m_LengthScale: 0.22
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
@@ -1057,8 +1057,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.1
-      minScalar: 0.1
+      scalar: 0.03
+      minScalar: 0.03
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5818,7 +5818,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.9481542, b: 0.8509433, a: 1}
   m_Intensity: 40
-  m_Range: 17
+  m_Range: 10
   m_SpotAngle: 55.701332
   m_InnerSpotAngle: 45.493256
   m_CookieSize: 10
