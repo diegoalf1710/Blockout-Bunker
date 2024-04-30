@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 2bcfa23e993fbdc4ab35dbc51a79c0eb, type: 2}
 --- !u!1001 &71417255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5949,7 +5949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &721277084
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6086,18 +6086,18 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 27c7c429405aa284b9ad3e2c82a772c4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.707
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 1.2633181
+  MaxDistance: 24.301632
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -6130,7 +6130,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -7071,6 +7071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectTextObj: {fileID: 988350252}
   intText: {fileID: 1970957676}
+  monster: {fileID: 721277083}
   pickupSound: {fileID: 1480369641}
   ambianceLayer1: {fileID: 2126397361}
   ambianceLayer2: {fileID: 473389173}
@@ -8012,6 +8013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectTextObj: {fileID: 988350252}
   intText: {fileID: 1970957676}
+  monster: {fileID: 721277083}
   pickupSound: {fileID: 1480369641}
   ambianceLayer1: {fileID: 2126397361}
   ambianceLayer2: {fileID: 473389173}

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PickupPieces : MonoBehaviour
 {
-    public GameObject collectTextObj, intText;
+    public GameObject collectTextObj, intText, monster;
     public AudioSource pickupSound, ambianceLayer1, ambianceLayer2, ambianceLayer3, ambianceLayer4, ambianceLayer5, ambianceLayer6, ambianceLayer7, ambianceLayer8;
     public bool interactable;
     public static int piecesCollected;
@@ -38,7 +38,7 @@ public class PickupPieces : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                piecesCollected = piecesCollected + 1;
+                piecesCollected = piecesCollected + 1;               
                 collectText.text = piecesCollected + "/8 shotgun pieces";
                 collectTextObj.SetActive(true);
                 pickupSound.Play();
@@ -49,6 +49,10 @@ public class PickupPieces : MonoBehaviour
                 if (piecesCollected == 2)
                 {
                     ambianceLayer2.Play();
+                    if (monster.active == false)
+                    {
+                        monster.SetActive(true);
+                    }
                 }
                 if (piecesCollected == 3)
                 {
