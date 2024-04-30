@@ -11,6 +11,11 @@ public class PickupPieces : MonoBehaviour
     public static int piecesCollected;
     public Text collectText;
 
+    void Start()
+    {
+        piecesCollected = 0;
+    }
+
     void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("MainCamera"))
